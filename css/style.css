@@ -1,4 +1,4 @@
-/*** Solid Core ***/
+
 @import url(https://fonts.googleapis.com/css?family=Raleway:300,500);
 
 /* Normalize */
@@ -75,53 +75,10 @@ blockquote em, blockquote i, figcaption em, figcaption i { font-style: normal; }
 .flex { display: -webkit-box; display: -webkit-flex; display: flex; flex-directon: row; flex-wrap: wrap; justify-content: space-between; align-items: flex-start; clear: both; }
 .flex > * { flex: 0 1 auto; width: 100%; }
 
-.alignleft, .alignright, .aligncenter, .wp-post-image { display: block; clear: both; margin: 1em auto; }
-
-.article-footer { margin: 0 0 2em 0; }
-
-.widgets { margin: 0; padding: 0; list-style: none; }
-.widget { display: block; margin: 0 0 1.5em 0; }
-.widgettitle { margin: 0 0 0.3em 0; font-size: 1.25em; }
-.widget ul, .widget ol { margin: 0 0 0 1em; }
-.widget li { margin: 0.2em 0; }
-
-.commentlist { margin: 0 0 2em 0; padding: 0; list-style: none; }
-.comment { display: block; margin: 0 0 1.5em 0; }
-.comment-respond { margin: 0 0 2em 0; }
-/* Theme Editor Styles */
-
-/* Form Styles */
-.wpcf7-form { font-size: 1em; line-height: normal; }
-::-webkit-input-placeholder { color: #777; }
-:-moz-placeholder { color: #777; }
-::-moz-placeholder { color: #777; }
-:-ms-input-placeholder { color: #777; }
-.field { position: relative; margin: 0; border: 2px solid #222; border-width: 2px 2px 0 2px; }
-.field-last { border-width: 2px; }
-.label { display: block; padding: 0.25em 0.5em 0 0.5em; font-size: 0.75em; }
-.input { margin: 0; border: 0; padding: 0.25em 0.4em; font-family: inherit; font-weight: inherit; width: 100%; font-size: 1em; color: #000; background: none; outline: none; }
-.select {  }
-.search {  }
-.textarea { height: 6em; }
-.checkbox { display: none; }
-.radio { display: none; }
-.field-submit { margin: 0.5em 0 0 0; border: 0; }
-.ajax-loader { margin: 0 0 0 0.3em; }
-.field .wpcf7-form-control-wrap { position: static; width: 100%; }
-.field .wpcf7-not-valid-tip { display: block; position: absolute; top: 0.25em; right: 0.4em; padding: 0; font-size: 0.75em; color: #e94953; }
-.wpcf7-form .wpcf7-response-output { margin: 1.2em 0; border: 0; border-radius: 0.25em; max-width: 32em; font-size: 1em; color: #384d81; background: none; }
-.wpcf7-form .wpcf7-validation-errors { border: 1px solid #e94953; color: #e94953; background: none; }
-/* Form Styles */
-
 .screen-reader-text { display: none; }
 
 /* Global Header & Footer Styles */
 #wrapper { position: relative; margin: auto; padding: 0; max-width: 1600px; min-height: 100%; color: #070a0f; background: #e1e3e9; }
-
-#nav { display: none; }
-#nav ul, #nav li { margin: 0; padding: 0; list-style: none; }
-
-#main {  }
 
 .header-page { position: relative; color: #f8f8fb; background: center no-repeat #111; background-size: cover; }
 .header-logo { padding: 1px; }
@@ -132,8 +89,6 @@ blockquote em, blockquote i, figcaption em, figcaption i { font-style: normal; }
 .header-footer { margin: 1.8em 0 0 0; font-size: 18px; }
 
 .body-page { padding: 4% 5%; }
-
-#primary {  }
 
 #footer { padding: 3%; font-size: 16px; text-align: center; }
 /* Global Header & Footer Styles */
@@ -152,93 +107,42 @@ blockquote em, blockquote i, figcaption em, figcaption i { font-style: normal; }
 .project-content h4 { margin: 0.2em 0 0 0; font-size: 0.8em; font-weight: 500; }
 .project-content:last-child { margin: 1em 0 0 0; }
 
-/*** Solid Core ***/
-
-/*** Liquid Core ***/
-@media only screen and (min-width: 20em){
-
-}
-/*** Liquid Core ***/
-
-/*** Lower Mantle ***/
-@media only screen and (min-width: 30em){
-	.alignleft, img.alignleft { float: left; margin: 0 1em 1em 0; max-width: 48%; }
-	.alignright, img.alignright, .wp-post-image { float: right; margin: 0 0 1em 1em; max-width: 48%; }
-
-	.sidebar .widget { width: auto; }
-}
-/*** Lower Mantle ***/
-
-/*** Upper Mantle ***/
 @media only screen and (min-width: 40em){
-    html { font-size: 18px; }
+	html { font-size: 18px; }
 
-    .projects { align-items: stretch; }
-    .project-image { margin: 1em 0; padding: 37.5% 0 0 0; width: 48%; }
-    .project-content { margin: 1em 0; width: 48%; }
+	.projects { align-items: stretch; }
+	.project-image { margin: 1em 0; padding: 37.5% 0 0 0; width: 48%; }
+	.project-content { margin: 1em 0; width: 48%; }
 }
-/*** Upper Mantle ***/
 
-/*** Asthenosphere ***/
 @media only screen and (min-width: 50em){
-    html { font-size: 20px; }
+	html { font-size: 20px; }
 }
-/*** Asthenosphere ***/
 
-/*** Lithosphere ***/
 @media only screen and (min-width: 60em){
-    html { font-size: 18px; }
-    .header-page { position: fixed; top: 0; right: 55%; width: 45%; max-width: 800px; height: 100%; }
-    .header-text { position: absolute; bottom: 0; left: 0; width: 100%; }
-    #main { margin: 0 0 0 45%; }
+	html { font-size: 18px; }
+	.header-page { position: fixed; top: 0; right: 55%; width: 45%; max-width: 800px; height: 100%; }
+	.header-text { position: absolute; bottom: 0; left: 0; width: 100%; }
+	#main { margin: 0 0 0 45%; }
 
-    .project-image { margin: 1em 0 0 0; padding: 75% 0 0 0; width: 100%; }
-    .project-content { margin: 1em 0 0 0; width: 100%; }
-}
-/*** Lithosphere ***/
-
-@media only screen and (min-width: 65em){
-
+	.project-image { margin: 1em 0 0 0; padding: 75% 0 0 0; width: 100%; }
+	.project-content { margin: 1em 0 0 0; width: 100%; }
 }
 
-/*** Crust ***/
 @media only screen and (min-width: 70em){
-    html { font-size: 20px; }
+	html { font-size: 20px; }
 
-    .project-image { margin: 1em 0; padding: 37.5% 0 0 0; width: 48%; }
-    .project-content { margin: 1em 0 0 0; width: 48%; }
+	.project-image { margin: 1em 0; padding: 37.5% 0 0 0; width: 48%; }
+	.project-content { margin: 1em 0 0 0; width: 48%; }
 }
-/*** Crust ***/
 
-/*** Troposphere ***/
-@media only screen and (min-width: 80em){
-
-}
-/*** Troposphere ***/
-
-/*** Stratosphere ***/
 @media only screen and (min-width: 90em){
-    html { font-size: 22px; }
+	html { font-size: 22px; }
 }
-/*** Stratosphere ***/
 
-/*** Mesosphere ***/
 @media only screen and (min-width: 100em){
-    html { font-size: 24px; }
+	html { font-size: 24px; }
 }
-/*** Mesosphere ***/
-
-/*** Thermosphere ***/
-@media only screen and (min-width: 110em){
-
-}
-/*** Thermosphere ***/
-
-/*** Exosphere ***/
-@media only screen and (min-width: 120em){
-
-}
-/*** Exosphere ***/
 
 @media print {
 	@page { margin: 0.5cm; }
@@ -251,5 +155,4 @@ blockquote em, blockquote i, figcaption em, figcaption i { font-style: normal; }
 	img { max-width: 100% !important; }
 	p, h1, h2, h3 { orphans: 3; widows: 3; }
 	h1, h2, h3 { page-break-after: avoid; }
-	#nav, #primary, #sidebar-post, .page-navigation, .pagination, .wp-prev-next, .respond-form { display: none; }
 }
